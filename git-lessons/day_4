@@ -1,0 +1,16 @@
+How to see all the commits info in a short format
+# git log --oneline
+How to find commits done by a particular user in a Project 
+# git log --author=<name or email>
+How to unstage a file
+# git reset HEAD <filename>
+git revert command 
+# git revert <CID>
+git revert helps to undo a commit > git revert should be applied after u done the commit on a file.
+** applicable on the committed files.
+How to undo changes before commit?
+# git checkout -- filename
+
+
+
+

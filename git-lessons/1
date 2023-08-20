@@ -1,0 +1,6 @@
+How to see all the commits info in a short format
+# git log --oneline
+How to find commits done by a particular user in a Project 
+# git log --author=<name or email>
+
+

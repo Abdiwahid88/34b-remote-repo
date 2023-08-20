@@ -1,0 +1,107 @@
+How to delete a file/folder from Repo
+# git rm <filename>
+Any file that we delete, then file will be autostaged
+Github - Introduction
+
+1. github created on 2007
+2. Purchased by Microsoft in 2018
+3. Operates on Principle of "Pay per use model" ( Service - Cost ) 
+    * no investment --> use services -- pay for it.      
+4. Support 2 types of repo - public and private
+5. Features wise ranked 1 in the market
+6. Headquarters : San Francisco.
+Github - Features
+
+1. free account
+2. Public Repo unlimited
+3. Private Repo with Limitations
+4. pay per use
+Github - Account Creation
+
+Q. How to create the repo in github?
+
+-- login into github
+-- then create new
+-- give a name to it
+-- readme file - you can update about information over their
+How to clone a remote repo onto your computer ?
+# git clone <repo_URL>
+Note -
+When we clone public repo, it will not ask any git hub ID and github password (Token)
+When we clone private repo, it will ask your github  ID and github password (Token)
+How to identify the repo which is clone or remote origin
+# git remote -v
+or
+# git config --list
+How to pull the updates from remote repo
+# git pull
+How to update the changes from local to remote repo
+# git push
+# git pull      →  	to pick up updates from server to LR
+    
+# git push   → 	to pick up updates from LR to Server
+
+Branch uses :
+   
+    1. code experimentation
+    2. apply changes on existing code
+    3. testing the code
+    4. debugging the code
+
+Q. How to know the branch info ?
+
+# git branch
+
+How to create a branch
+# git branch <br_name>
+How to move into another branch
+# git checkout <br_name>
+How to merge the changes into parent
+# git merge <br_name>
+** Usually, we merge the child branch into the parent.
+How to delete the branch ?
+
+** we can only delete the child branches.
+
+# git branch -d <br_name>
+How to rename a branch ?
+
+# git branch -m oldname newname
+gitignore is a file
+
+1. excluded from VCS
+2. those files will not be uploaded to the server, not part of pull and push...
+3. any changes that we make to gitignore, we have to commit the changes...
+
+-- 99 % times, when project is created, .gitignore
+
+-- use cases:
+
+1. development files are still pending or yet to complete
+
+2. users will try to maintain there notes of the project
+
+3. Userid and password files
+
+4. junk/temp files of the project
+
+5. not required files
+
+Note: ** git will not apply any VCS on a folder which is empty.
+1. git diff
+
+- it will compare the data of committed file with a modified file
+
+or
+
+- it will compare the data that is in CA to that of WD/WC
+
+
+
+
+
+
+
+
+
+

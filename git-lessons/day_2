@@ -1,0 +1,20 @@
+Git - Installation on Linux
+Command to install
+# yum install git
+Command to verify the installation
+# git  --version
+How to check the configuration of git 
+# git config --list
+How to configure a user name
+# git config --global user.name <name>
+# git config --global user.email <email_id>
+How to create the project or Local Repo in git
+# git init <project_name>
+How to check your git status
+# git status 
+
+
+
+
+
+

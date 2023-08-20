@@ -1,0 +1,28 @@
+How to do a single commit
+# git add <filename>
+# git commit -m "message" <filename>
+How to commit more than one file 
+# git add file1 file2 file3 ....
+# git commit -m "message" file1 file2 file3 ...
+# git add .
+# git commit .
+Command to see committed files or in Commit Area
+# git ls-files
+How to see the last commit or recent commit of a repo  
+# git show
+we get details like - 
+-commit id, 
+-authour, 
+-Date-time-timezone,
+-commit message
+How to see specific details of a commit
+#git show <Commit ID> 
+How to see all the commits done so far on the repo
+# git log --all
+
+
+
+ 
+  
+
+
